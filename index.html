@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>Account</h1>
+            <div class="row">
+                <div class="col-md-6 pe-md-4">
+                    <h2>Account Information</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="firstname">First name</label>
+                            <input id="firstname" type="text">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastname">Last name</label>
+                            <input id="lastname" type="text">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="email">e-mail</label>
+                        <input id="email" type="email">
+                    </div>
+                </div>
+                <div class="col-md-6 ps-md-4">
+                    <h2>Change Password</h2>
+                    <div class="col-md-12">
+                        <label for="newpw">New password</label>
+                        <input id="newpw" type="password">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="cf-newpw">Comfirm new password</label>
+                        <input id="cf-newpw" type="password">
+                    </div>
+                </div>
+            </div>
+            <h2>Shipping Address</h2>
+            <div class="row">
+                <div class="col-md-6 pe-md-4">
+                    <label for="addr-1">Address Line 1</label>
+                    <input id="addr-1" type="text">
+                    <label for="addr-2">Address Line 2</label>
+                    <input id="addr-2" type="text">
+                </div>
+                <div class="col-md-6 ps-md-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="country">Country</label>
+                            <select id="country">
+                                <option>Taiwan</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="state">State</label>
+                            <select id="state">
+                                <option>Taipei</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="postal">Zip/Postal</label>
+                            <input id="postal" type="text">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phone">Phone</label>
+                            <input id="phone" type="tel">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2>Newsletter</h2>
+            <div class="row">
+                <div class="col-md-6 mg-36" >
+                    <label for="checkbox">
+                        <input id="checkbox" type="checkbox">Keep in touch with our newsletter
+                    </label>
+                </div>
+                <div class="col-md-6 mg-36 d-flex justify-content-end">
+                    <input class="btn" type="submit" value="SAVE CHANGES">  
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+
+</html>

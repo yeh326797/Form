@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    position: relative;
+    font-family: "微軟正黑體";
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    height: 100%;
+    background-color: #eee;
+    padding: 60px;
+}
+
+.container{
+    background-color: #fff;
+    padding: 48px;
+}
+
+label{
+    margin-bottom: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #666;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select{
+    padding: 8px 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    vertical-align: middle;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus{
+    outline: 0;
+    border-color: #53db9b;
+}
+
+h1,h2{
+    margin: 0;
+    color: #666;
+    font-weight: 700;
+}
+
+h1{
+    margin-bottom: 48px;
+}
+
+h2{
+    margin-bottom: 24px;
+}
+
+.mg-36{
+    padding-bottom: 36px;
+}
+.btn{
+    font-family: inherit;
+    font-size: 100%;
+    padding: 12px 48px;
+    color: #fff;
+    background-color: #53db9b;
+    border: 0px;
+    text-decoration: none;
+    border-radius: 4px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+input.btn:focus{
+	outline: 0;
+}
+
+.btn:hover{
+	background-color: #4bc68d;
+}
